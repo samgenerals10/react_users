@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(0, 3, 5);
+}
+
+Form {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+}
+
+h3{
+    color: #fff;
+}
+
+#subBut{
+    border: 1px solid #fff;
+}
+
+.card {
+    /* border-style: solid; */
+    border: 2px solid #fff;
+    display: block;
+    width: 240px;
+    height: 250px;
+    transition: width 3s, height 3s, background-color 3s, transform 3s;
+    margin-bottom: 20px;
+    color: #fff;
+    background:none;
+    box-shadow:  1px #fff(247, 2, 2), 1em  0.4em rgb(112, 92, 92);
+  }
+  
+.card:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px rgb(255, 255, 255), 0.1em 0.5em rgb(255, 255, 255);
+    background: none;
+    width: 270px;
+    height: 200px;
+} 
